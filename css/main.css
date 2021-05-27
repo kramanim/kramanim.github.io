@@ -342,7 +342,7 @@ content:'\f099';
 /* ========== Begin Carousel ====== */
 .container {
   position: relative;
-  width: 320px;
+  width: 90%;
   margin: 1px auto 0 auto;
   perspective: 1600px;
 }
