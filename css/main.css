@@ -146,17 +146,22 @@ p
   max-height: 200px;
 }
 
-ul {list-style-type: none;}
+#content {
+  text-align: center;
+}
+
+ul
+{
+  list-style: square inside url("bullet.png");
+  text-align: left;
+  display: inline-block;
+}
 
 ul li
 {
-  background-image: url("bullet.png");
-  background-position: 0px 5px;
-  background-repeat: no-repeat;
-  padding-left: 20px;
   color: white;
-  text-align:left;
   overflow: auto;
+  padding-top: 10px;
 }
 
 section#home
@@ -177,10 +182,7 @@ section#sec1
   top: 230px;
   min-height: 100px;
   width: 100%;
-  /* position: absolute;
-  border: 1px solid black; */
   padding-top: 20px;
-  left: 0;
 }
 
 .flex-container-ab {
@@ -236,11 +238,6 @@ footer#aboutfoot
   margin-top: 20px !important;
   top: 500px !important;
   position:inherit !important;
-}
-
-p#pblog
-{
-  text-align: center;
 }
 
 p#foo
