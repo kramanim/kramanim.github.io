@@ -248,6 +248,11 @@ p#foo
  font-size: 1em;
 }
 
+p#pblog
+{
+  color: white;
+}
+
 p#extra
 {
   height: 50px;
