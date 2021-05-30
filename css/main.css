@@ -258,6 +258,11 @@ p#extra
   height: 50px;
 }
 
+a.blog
+{
+  color: #add8e6; 
+}
+
 a.fa {
   color:#fff;
   background: #57a15c;
